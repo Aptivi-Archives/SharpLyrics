@@ -1,0 +1,164 @@
+{
+  "sitemap": {
+    "baseUrl": "https://aptivi.github.io/SharpLyrics/"
+  },
+  "homepages": [],
+  "source_base_path": "/github/workspace/DocGen",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpLyrics.Lyric.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpLyrics.Lyric.html",
+          "hash": "oLt754FXyQoJz5n0C5DASv5lwvwp5YwdYGjbMV8Mpt4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpLyrics.LyricLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpLyrics.LyricLine.html",
+          "hash": "lCUSa/Mqr48fkHFUOSGSG6l814Dt7wmc2GeSYImJhko="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpLyrics.LyricLineWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpLyrics.LyricLineWord.html",
+          "hash": "zvLtnmWh1KdYBdjWzoXZhMaMTNyTS3eX3Sw9M8ZTXTs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpLyrics.LyricReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpLyrics.LyricReader.html",
+          "hash": "rMq7w7ah2/qbjKBl8XMgVp9zK3hQIuknrpaiS6zYKgk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SharpLyrics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharpLyrics.html",
+          "hash": "xWjgRvwpYnRTb1Ffq3HeWQxqhwRh/zzqP3YUoWpyVwg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "tHsY1k1dmsCNFwACaUu55aMl4q0UzgkgvkRRYSBYvv0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "wfn/bnX31E/uqpT6Y6aKSR+CO5s0Zoh3SmFaOS23IIk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "eUjQGpSJCu2HW50/FBwroY6+ieN/UhSQSXtvdOWGfsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
