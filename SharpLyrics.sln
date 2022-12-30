@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpLyrics", "SharpLyrics\SharpLyrics.csproj", "{A7A5FAA3-3B1E-49C8-AC0B-730D921FA78B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpLyrics.Demo", "SharpLyrics.Demo\SharpLyrics.Demo.csproj", "{93E37816-1046-4DF5-B6D6-633AA74C5736}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7A5FAA3-3B1E-49C8-AC0B-730D921FA78B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A5FAA3-3B1E-49C8-AC0B-730D921FA78B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A5FAA3-3B1E-49C8-AC0B-730D921FA78B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A5FAA3-3B1E-49C8-AC0B-730D921FA78B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E37816-1046-4DF5-B6D6-633AA74C5736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E37816-1046-4DF5-B6D6-633AA74C5736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E37816-1046-4DF5-B6D6-633AA74C5736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E37816-1046-4DF5-B6D6-633AA74C5736}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51D7F810-953E-469A-8C47-6246D072AB53}
+	EndGlobalSection
+EndGlobal

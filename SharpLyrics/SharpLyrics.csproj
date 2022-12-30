@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <AssemblyTitle>SharpLyrics</AssemblyTitle>
+    <AssemblyDescription>Lyrics parser for .NET</AssemblyDescription>
+    <Description>Lyrics parser for .NET</Description>
+    <Version>1.0.0</Version>
+    <Authors>Aptivi</Authors>
+    <DebugType>portable</DebugType>
+    <AssemblyName>SharpLyrics</AssemblyName>
+    <PackageId>SharpLyrics</PackageId>
+    <PackageTags>lyrics;music;library</PackageTags>
+    <PackageProjectUrl>https://github.com/Aptivi/SharpLyrics</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/Aptivi/SharpLyrics</RepositoryUrl>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>Aptivi</Company>
+    <Copyright>Copyright (c) 2022-2023 Aptivi</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageIcon>OfficialAppIcon-SharpLyrics-512.png</PackageIcon>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <PackageVersion>1.0.0</PackageVersion>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="OfficialAppIcon-SharpLyrics-512.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
