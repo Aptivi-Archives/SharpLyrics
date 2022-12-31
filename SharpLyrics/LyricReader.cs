@@ -100,9 +100,10 @@ namespace SharpLyrics
                     // Strip the time indicators and get the next word
                     timeOrWord = timeOrWord.Replace("<", "").Replace(">", "");
                     nextWord = words[i + 1];
+                    i++;
 
                     // Parse the time
-                    wordTime = TimeSpan.Parse($"00:{wordTime}");
+                    wordTime = TimeSpan.Parse($"00:{timeOrWord}");
                 }
 
                 // Get the final word and install the values and then add to the dictionary

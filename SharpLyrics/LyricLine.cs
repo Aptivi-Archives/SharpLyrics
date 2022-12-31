@@ -25,6 +25,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SharpLyrics
 {
@@ -51,6 +52,9 @@ namespace SharpLyrics
             Line = line;
             LineSpan = lineSpan;
             LineWords = LyricReader.GetLyricWords(line);
+
+            if (line.Contains("<") && line.Contains(">"))
+                Line = string.Join(" ", LineWords.Select((llw) => llw.Word).ToArray());
         }
     }
 }
