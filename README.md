@@ -1,29 +1,67 @@
+
+<div align = center>
+
+<br>
+<br>
+    
+<img
+  src = 'https://cdn.jsdelivr.net/gh/Aptivi/SharpLyrics@main/SharpLyrics/OfficialAppIcon-SharpLyrics-512.png'
+  width = 256
+  align = center
+/>
+
+<br>
+
 # SharpLyrics
+    
+*A library that processes your lyric files with the basic and extended formats.*
 
-SharpLyrics is a C# library that allows you to process your `.lrc` or `.txt` lyric files with the basic and extended formats for use in your own music player that supports lyrics.
+<br>
+<br>
 
-## License
+[![Badge Main]][Main]   
+[![Badge Main Linux]][Main Linux]
 
-```
-MIT License
+[![Badge Latest]][Latest]   
+[![Badge NuGet]][NuGet]
 
-Copyright (c) 2022-2023 Aptivi
+![Badge Size]   
+[![Badge Downloads]][Releases]
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+[![Button Manual]][Manual]   
+[![Button Libraries]][Libraries]
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+</div>
+    
+<br>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+</div>
+
+
+<!----------------------------------------------------------------------------->
+
+[Releases]: https://github.com/Aptivi/SharpLyrics/releases
+[Latest]: https://github.com/Aptivi/SharpLyrics/releases/latest
+[NuGet]: https://www.nuget.org/packages/SharpLyrics/
+
+[Main]: https://github.com/Aptivi/SharpLyrics/actions/workflows/build-win.yml
+[Main Linux]: https://github.com/Aptivi/SharpLyrics/actions/workflows/build-linux.yml
+
+[Libraries]: https://aptivi.gitbook.io/sharplyrics-manual/project-dependencies
+[Manual]: https://aptivi.gitbook.io/sharplyrics-manual/
+
+<!----------------------------------[ Badges ]--------------------------------->
+
+[Badge Downloads]: https://img.shields.io/github/downloads/Aptivi/SharpLyrics/total?color=217346&label=Downloads&style=for-the-badge&logoColor=white&logo=DocuSign&labelColor=2d9d5f
+[Badge Latest]: https://img.shields.io/github/v/release/Aptivi/SharpLyrics?color=212121&include_prereleases&label=github&style=for-the-badge&logoColor=white&logo=AzureArtifacts&labelColor=303030
+[Badge NuGet]: https://img.shields.io/nuget/vpre/SharpLyrics?color=012f52&style=for-the-badge&logoColor=white&logo=NuGet&labelColor=004880
+[Badge Size]: https://img.shields.io/github/repo-size/Aptivi/SharpLyrics?color=bb4a28&label=size&logoColor=white&style=for-the-badge&logo=GoogleAnalytics&labelColor=E85C33
+
+[Badge Main]: https://github.com/Aptivi/SharpLyrics/actions/workflows/build-win.yml/badge.svg
+[Badge Main Linux]: https://github.com/Aptivi/SharpLyrics/actions/workflows/build-linux.yml/badge.svg
+
+
+<!---------------------------------[ Buttons ]--------------------------------->
+
+[Button Libraries]: https://img.shields.io/badge/Libraries-EA8220?style=for-the-badge&logoColor=white&logo=AzureArtifacts
+[Button Manual]: https://img.shields.io/badge/Docs-blueviolet?style=for-the-badge&logoColor=white&logo=GitBook
