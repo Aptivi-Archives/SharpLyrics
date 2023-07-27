@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aptivi.github.io/SharpLyrics/api/SharpLyrics.Lyric.html</loc>
-    <lastmod>2023-07-14T12:54:05+00:00</lastmod>
+    <lastmod>2023-07-27T11:08:12+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/SharpLyrics/api/SharpLyrics.LyricLine.html</loc>
-    <lastmod>2023-07-14T12:54:05+00:00</lastmod>
+    <lastmod>2023-07-27T11:08:12+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/SharpLyrics/api/SharpLyrics.LyricLineWord.html</loc>
-    <lastmod>2023-07-14T12:54:05+00:00</lastmod>
+    <lastmod>2023-07-27T11:08:12+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/SharpLyrics/api/SharpLyrics.LyricReader.html</loc>
-    <lastmod>2023-07-14T12:54:05+00:00</lastmod>
+    <lastmod>2023-07-27T11:08:12+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/SharpLyrics/api/SharpLyrics.html</loc>
-    <lastmod>2023-07-14T12:54:05+00:00</lastmod>
+    <lastmod>2023-07-27T11:08:12+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://aptivi.github.io/SharpLyrics/index.html</loc>
-    <lastmod>2023-07-14T12:54:05+00:00</lastmod>
+    <lastmod>2023-07-27T11:08:12+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
