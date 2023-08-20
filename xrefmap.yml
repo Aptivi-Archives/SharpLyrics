@@ -13,22 +13,25 @@ references:
   commentId: T:SharpLyrics.Lyric
   fullName: SharpLyrics.Lyric
   nameWithType: Lyric
-- uid: SharpLyrics.Lyric.#ctor(List{SharpLyrics.LyricLine})
+- uid: SharpLyrics.Lyric.#ctor(System.Collections.Generic.List{SharpLyrics.LyricLine})
   name: Lyric(List<LyricLine>)
-  href: api/SharpLyrics.Lyric.html#SharpLyrics_Lyric__ctor_List_SharpLyrics_LyricLine__
-  commentId: M:SharpLyrics.Lyric.#ctor(List{SharpLyrics.LyricLine})
-  name.vb: Lyric(List(Of LyricLine))
-  fullName: SharpLyrics.Lyric.Lyric(List<SharpLyrics.LyricLine>)
-  fullName.vb: SharpLyrics.Lyric.Lyric(List(Of SharpLyrics.LyricLine))
+  href: api/SharpLyrics.Lyric.html#SharpLyrics_Lyric__ctor_System_Collections_Generic_List_SharpLyrics_LyricLine__
+  commentId: M:SharpLyrics.Lyric.#ctor(System.Collections.Generic.List{SharpLyrics.LyricLine})
+  name.vb: New(List(Of LyricLine))
+  fullName: SharpLyrics.Lyric.Lyric(System.Collections.Generic.List<SharpLyrics.LyricLine>)
+  fullName.vb: SharpLyrics.Lyric.New(System.Collections.Generic.List(Of SharpLyrics.LyricLine))
   nameWithType: Lyric.Lyric(List<LyricLine>)
-  nameWithType.vb: Lyric.Lyric(List(Of LyricLine))
+  nameWithType.vb: Lyric.New(List(Of LyricLine))
 - uid: SharpLyrics.Lyric.#ctor*
   name: Lyric
   href: api/SharpLyrics.Lyric.html#SharpLyrics_Lyric__ctor_
   commentId: Overload:SharpLyrics.Lyric.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: SharpLyrics.Lyric.Lyric
+  fullName.vb: SharpLyrics.Lyric.New
   nameWithType: Lyric.Lyric
+  nameWithType.vb: Lyric.New
 - uid: SharpLyrics.Lyric.Lines
   name: Lines
   href: api/SharpLyrics.Lyric.html#SharpLyrics_Lyric_Lines
@@ -48,19 +51,25 @@ references:
   commentId: T:SharpLyrics.LyricLine
   fullName: SharpLyrics.LyricLine
   nameWithType: LyricLine
-- uid: SharpLyrics.LyricLine.#ctor(System.String,TimeSpan)
-  name: LyricLine(String, TimeSpan)
-  href: api/SharpLyrics.LyricLine.html#SharpLyrics_LyricLine__ctor_System_String_TimeSpan_
-  commentId: M:SharpLyrics.LyricLine.#ctor(System.String,TimeSpan)
-  fullName: SharpLyrics.LyricLine.LyricLine(System.String, TimeSpan)
-  nameWithType: LyricLine.LyricLine(String, TimeSpan)
+- uid: SharpLyrics.LyricLine.#ctor(System.String,System.TimeSpan)
+  name: LyricLine(string, TimeSpan)
+  href: api/SharpLyrics.LyricLine.html#SharpLyrics_LyricLine__ctor_System_String_System_TimeSpan_
+  commentId: M:SharpLyrics.LyricLine.#ctor(System.String,System.TimeSpan)
+  name.vb: New(String, TimeSpan)
+  fullName: SharpLyrics.LyricLine.LyricLine(string, System.TimeSpan)
+  fullName.vb: SharpLyrics.LyricLine.New(String, System.TimeSpan)
+  nameWithType: LyricLine.LyricLine(string, TimeSpan)
+  nameWithType.vb: LyricLine.New(String, TimeSpan)
 - uid: SharpLyrics.LyricLine.#ctor*
   name: LyricLine
   href: api/SharpLyrics.LyricLine.html#SharpLyrics_LyricLine__ctor_
   commentId: Overload:SharpLyrics.LyricLine.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: SharpLyrics.LyricLine.LyricLine
+  fullName.vb: SharpLyrics.LyricLine.New
   nameWithType: LyricLine.LyricLine
+  nameWithType.vb: LyricLine.New
 - uid: SharpLyrics.LyricLine.Line
   name: Line
   href: api/SharpLyrics.LyricLine.html#SharpLyrics_LyricLine_Line
@@ -106,19 +115,25 @@ references:
   commentId: T:SharpLyrics.LyricLineWord
   fullName: SharpLyrics.LyricLineWord
   nameWithType: LyricLineWord
-- uid: SharpLyrics.LyricLineWord.#ctor(System.String,TimeSpan)
-  name: LyricLineWord(String, TimeSpan)
-  href: api/SharpLyrics.LyricLineWord.html#SharpLyrics_LyricLineWord__ctor_System_String_TimeSpan_
-  commentId: M:SharpLyrics.LyricLineWord.#ctor(System.String,TimeSpan)
-  fullName: SharpLyrics.LyricLineWord.LyricLineWord(System.String, TimeSpan)
-  nameWithType: LyricLineWord.LyricLineWord(String, TimeSpan)
+- uid: SharpLyrics.LyricLineWord.#ctor(System.String,System.TimeSpan)
+  name: LyricLineWord(string, TimeSpan)
+  href: api/SharpLyrics.LyricLineWord.html#SharpLyrics_LyricLineWord__ctor_System_String_System_TimeSpan_
+  commentId: M:SharpLyrics.LyricLineWord.#ctor(System.String,System.TimeSpan)
+  name.vb: New(String, TimeSpan)
+  fullName: SharpLyrics.LyricLineWord.LyricLineWord(string, System.TimeSpan)
+  fullName.vb: SharpLyrics.LyricLineWord.New(String, System.TimeSpan)
+  nameWithType: LyricLineWord.LyricLineWord(string, TimeSpan)
+  nameWithType.vb: LyricLineWord.New(String, TimeSpan)
 - uid: SharpLyrics.LyricLineWord.#ctor*
   name: LyricLineWord
   href: api/SharpLyrics.LyricLineWord.html#SharpLyrics_LyricLineWord__ctor_
   commentId: Overload:SharpLyrics.LyricLineWord.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: SharpLyrics.LyricLineWord.LyricLineWord
+  fullName.vb: SharpLyrics.LyricLineWord.New
   nameWithType: LyricLineWord.LyricLineWord
+  nameWithType.vb: LyricLineWord.New
 - uid: SharpLyrics.LyricLineWord.Word
   name: Word
   href: api/SharpLyrics.LyricLineWord.html#SharpLyrics_LyricLineWord_Word
@@ -152,11 +167,14 @@ references:
   fullName: SharpLyrics.LyricReader
   nameWithType: LyricReader
 - uid: SharpLyrics.LyricReader.GetLyrics(System.String)
-  name: GetLyrics(String)
+  name: GetLyrics(string)
   href: api/SharpLyrics.LyricReader.html#SharpLyrics_LyricReader_GetLyrics_System_String_
   commentId: M:SharpLyrics.LyricReader.GetLyrics(System.String)
-  fullName: SharpLyrics.LyricReader.GetLyrics(System.String)
-  nameWithType: LyricReader.GetLyrics(String)
+  name.vb: GetLyrics(String)
+  fullName: SharpLyrics.LyricReader.GetLyrics(string)
+  fullName.vb: SharpLyrics.LyricReader.GetLyrics(String)
+  nameWithType: LyricReader.GetLyrics(string)
+  nameWithType.vb: LyricReader.GetLyrics(String)
 - uid: SharpLyrics.LyricReader.GetLyrics*
   name: GetLyrics
   href: api/SharpLyrics.LyricReader.html#SharpLyrics_LyricReader_GetLyrics_
