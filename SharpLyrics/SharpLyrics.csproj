@@ -21,6 +21,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>True</IncludeSymbols>
     <PackageIcon>OfficialAppIcon-SharpLyrics-512.png</PackageIcon>
     <AssemblyVersion>1.0.0.1</AssemblyVersion>
     <PackageVersion>1.0.0.1</PackageVersion>
