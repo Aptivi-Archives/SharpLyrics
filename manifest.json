@@ -2,7 +2,6 @@
   "sitemap": {
     "baseUrl": "https://aptivi.github.io/SharpLyrics/"
   },
-  "homepages": [],
   "source_base_path": "/github/workspace/DocGen",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -95,7 +94,6 @@
       "version": ""
     }
   ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
