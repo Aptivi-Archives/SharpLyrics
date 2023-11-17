@@ -13,6 +13,8 @@
 <br>
 
 # SharpLyrics
+
+**WARNING: SharpLyrics has been replaced by [BassBoom](https://github.com/Aptivi/BassBoom)!**
     
 *A library that processes your lyric files with the basic and extended formats.*
 
